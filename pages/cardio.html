@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../assets/css/endurance.css">
+    <script type="module" src="../assets/js/script.js"></script>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <!--<script type="text/javascript" src="endurance.js"></script>-->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Poppins&display=swap" rel="stylesheet">
+    <title>Training Plan Outline</title>
+</head>
+<body style="background-color:#bef3f3">
+<nav class="navbar bg-dark navbar-expand-lg">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a href='../pages/account.html'>
+                    <img src='{{avatar}}' alt="avatar">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a onclick='logout()'>Logout</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="bmi.html">BMI Calculation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="diet.html">Diet Plan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="plans.html">Choose Plan</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<section class="price-comparison">
+    <div class="price-column">
+        <div class="price-header">
+            <div class="price">
+                <div class="dollar-sign"></div>
+                Easy
+                <div class="per-month"></div>
+            </div>
+            <div class="plan-name">30 MIN</div>
+        </div>
+        <div class="divider"></div>
+        <div class="feature">
+            <img src="../assets/img/check-circle.svg" id="imgclick" onclick="changeImage()" alt = "img_click">
+            5 min brisk walking
+        </div>
+        <div class="feature">
+            <img src="../assets/img/check-circle.svg" id="imgclick1" onclick="changeImage()" alt = "img_click">
+            5 min bear crawls
+        </div>
+        <div class="feature ">
+            <img src="../assets/img/check-circle.svg" id="imgclick2" onclick="changeImage()" alt = "img_click">
+            5 min jogging in place
+        </div>
+        <div class="feature ">
+            <img src="../assets/img/check-circle.svg" id="imgclick3" onclick="changeImage()" alt = "img_click">
+            5 min burpees
+        </div>
+        <div class="feature ">
+            <img src="../assets/img/check-circle.svg" id="imgclick4" onclick="changeImage()" alt = "img_click">
+            5 min squat jumps
+        </div>
+        <div class="feature ">
+            <img src="../assets/img/check-circle.svg" id="imgclick5" onclick="changeImage()" alt = "img_click">
+            5 min skipping rope
+        </div> <form action="https://youtu.be/VWj8ZxCxrYk">
+        <button href="#videoPopup" class="cta" id="buttonvideo">View Tutorials</button></form>
+
+    </div>
+    <div class="price-column popular">
+        <div class="most-popular"></div>
+        <div class="price-header">
+            <div class="price">
+                <div class="dollar-sign"></div>
+                Medium
+                <div class="per-month"></div>
+            </div>
+            <div class="plan-name">60 MIN</div>
+        </div>
+        <div class="divider"></div>
+        <div class="feature">
+            <img src="../assets/img/check-circle.svg" id="imgclick6" onclick="changeImage()" alt = "img_click">
+            15 min brisk walking
+        </div>
+        <div class="feature">
+            <img src="../assets/img/check-circle.svg" id="imgclick7" onclick="changeImage()" alt = "img_click">
+            15 min running
+        </div>
+        <div class="feature">
+            <img src="../assets/img/check-circle.svg" id="imgclick8" onclick="changeImage()" alt = "img_click">
+            10 min burpees
+        </div>
+        <div class="feature">
+            <img src="../assets/img/check-circle.svg" id="imgclick9" onclick="changeImage()" alt = "img_click">
+            10 min cycling
+        </div>
+        <div class="feature ">
+            <img src="../assets/img/check-circle.svg" id="imgclick10" onclick="changeImage()" alt = "img_click">
+            5 min squat jumps
+        </div>
+        <div class="feature ">
+            <img src="../assets/img/check-circle.svg" id="imgclick11" onclick="changeImage()" alt = "img_click">
+            5 min jumping jacks
+        </div>
+        <form action="https://youtu.be/NmCXy7oMsOs">
+            <button class="cta" id="cta">View Tutorials</button> </form>
+    </div>
+    <div class="price-column">
+        <div class="price-header">
+            <div class="price">
+                <div class="dollar-sign"></div>
+                Hard
+                <div class="per-month"></div>
+            </div>
+            <div class="plan-name">90 MIN</div>
+        </div>
+        <div class="divider"></div>
+        <div class="feature">
+            <img src="../assets/img/check-circle.svg" id="imgclick12" onclick="changeImage()" alt = "img_click">
+            20 min brisk walking
+        </div>
+        <div class="feature">
+            <img src="../assets/img/check-circle.svg" id="imgclick13" onclick="changeImage()" alt = "img_click">
+            20 min running
+        </div>
+        <div class="feature">
+            <img src="../assets/img/check-circle.svg" id="imgclick14" onclick="changeImage()" alt = "img_click">
+            15 min jumping jacks
+        </div>
+        <div class="feature">
+            <img src="../assets/img/check-circle.svg" id="imgclick15" onclick="changeImage()" alt = "img_click">
+            10 min HIIT
+        </div>
+        <div class="feature">
+            <img src="../assets/img/check-circle.svg" id="imgclick16" onclick="changeImage()" alt = "img_click">
+            10 min jump rope
+        </div>
+        <div class="feature">
+            <img src="../assets/img/check-circle.svg" id="imgclick17" onclick="changeImage()" alt = "img_click">
+            10 min cycling
+        </div>
+        <form action="https://youtu.be/UrOg0YZ1Diw">
+            <button class="cta" id="cta1">View Tutorials</button> </form>
+    </div>
+</section>
+</body>
+</html>

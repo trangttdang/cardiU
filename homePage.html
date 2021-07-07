@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <Title>Home Page</Title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/signUp.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script type="module" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/signUp.js"></script>
+    <!--<script type="text/javascript">-->
+    <!--    document.getElementById("submit_button").onclick = function () {-->
+    <!--        location.href = "https://punywindow72.qoom.space/~/cardiU/plans";-->
+    <!--    };-->
+    <!--</script>-->
+    <style>
+        div {
+            display: flex;
+            justify-content: center;
+        }
+
+        .container img {
+            width: 70%;
+            height: auto;
+            position: relative;
+            top:-80px;
+        }
+
+        .btn .btn-primary .btn-block .login-btn {
+            background-color:#bef3f3;
+        }
+
+
+    </style>
+</head>
+<body style="background-color:white">
+<main>
+    <div class = "container">
+        <img src="https://punywindow72.qoom.space/cardiU/Images/1.png" alt="cardiU logo" class="top">
+        <!--</div>-->
+        <form action='pages/plans.html' method='POST' enctype='multipart/form-data' style = "position:absolute; left:40%; top:70%;">
+            <!-- Username and password are mandatory to create an account -->
+            <input type="text" name= "username" placeholder="Username" required="required">
+            <input type='password' name='password' placeholder='Password' required>
+
+            <!-- You can add any additional fields attached to the account. For example: -->
+            <!-- <input type='text' name='name' placeholder='Name'> -->
+
+            <input type='submit' value='Sign in'>
+            <input type='hidden' name='redirecturl' value='pages/plans.html'>
+            <p style="text-align:center;" class = "font"> Don't have an account? <a href= "#myModal" data-toggle="modal" onclick="openModal()" style="text-decoration: none;" >Sign up here</a></p>
+        </form>
+    </div>
+    <!--<div class="text-center">-->
+    <!--	<a href="#myModal" class="btn btn-info" data-toggle="modal" onclick="openModal()">Click to Open Sign Up-->
+    <!--	Modal</a>-->
+    <!--</div>-->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog modal-login">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100">Sign Up</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form action='pages/plans.html' method='POST' enctype='multipart/form-data'>
+                        <div class="form-group">
+                            <!--<label for="recipient-name" class="col-form-label">Recipient:</label>-->
+                            <input type="text" name= "username" placeholder="Username" required="required">
+                        </div>
+                        <div class="form-group">
+                            <!--<label for="message-text" class="col-form-label">Message:</label>-->
+                            <input type='email' name='email' placeholder='Email' required>
+                        </div>
+                        <div class="form-group">
+                            <input id="psw" type="password" name="password" placeholder="Password" required="required">
+                        </div>
+                        <div class="form-group">
+                            <input type='file' assets='image/*' name='avatar' required>
+                        </div>
+                        <div class="form-group">
+                            <!--<button id="submit_button" class="btn btn-block login-btn" style="background-color:#bef3f3" onclick="location.href='https://punywindow72.qoom.space/~/cardiU/plans'">Sign Up</button>-->
+                            <input type='submit' value='Sign up'>
+                            <input type='hidden' name='redirecturl' value='pages/plans.html'>
+                            <!--     	<script type="text/javascript">-->
+                            <!--    document.getElementById("submit_button").onclick = function () {-->
+                            <!--        location.href = "https://punywindow72.qoom.space/~/cardiU/plans";-->
+                            <!--    };-->
+                            <!--</script>-->
+                        </div>
+                    </form>
+
+                    <!--<div class="modal-footer">-->
+                    <!--	<div id="message" style="display:block">-->
+                    <!--		<h3>Password must contain the following:</h3>-->
+                    <!--		<p id="letter" class="invalid">A <b>lowercase</b> letter</p>-->
+                    <!--		<p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>-->
+                    <!--		<p id="number" class="invalid">A <b>number</b></p>-->
+                    <!--		<p id="length" class="invalid">Minimum <b>8 characters</b></p>-->
+                    <!--		<p id="match" class="invalid">Password and Confirm Password Match</p>-->
+                    <!--	</div>-->
+                    <!--</div>-->
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+</body>
+</html>
