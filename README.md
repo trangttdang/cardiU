@@ -3,8 +3,8 @@ A web-app that is aimed towards social good of the people and a tool to make hea
 
 Contributors:
 <ul>
-   <li><a href="https://www.linkedin.com/in/trangttdang/">Trang Dang</a></li>
-   <li><a href="https://www.linkedin.com/in/lakshya-jaishankar/">Lakshya Jaishankar</a></li>
   <li><a href="https://www.linkedin.com/in/abhishree-verma-719a2a191/">Abhishree Verma</a></li>
   <li><a href=https://www.linkedin.com/in/asmita-malakar-3a9039203/>Asmita Malakar</a></li>
+  <li><a href="https://www.linkedin.com/in/lakshya-jaishankar/">Lakshya Jaishankar</a></li>
+  <li><a href="https://www.linkedin.com/in/trangttdang/">Trang Dang</a></li>
 </ul>
