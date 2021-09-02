@@ -1,5 +1,5 @@
 # cardiU
-A web app that is aimed towards the social good of the people and a tool to make healthcare easy to access. The oject won <b>BEST HEALTHCARE HACK</b> and <b>TOP 12 OVERALL</b> at Hydrangea Hacks 2021. Visit cardiU on <a href="https://devpost.com/software/cardiu">Devpost</a> to learn more about the project including project description, demo link, and youtube demo.
+A web app that is aimed towards the social good of the people and a tool to make healthcare easy to access. Among other 84 projects, cardiU won <b>BEST HEALTHCARE HACK</b> and <b>TOP 12 OVERALL</b> at Hydrangea Hacks 2021. Visit cardiU on <a href="https://devpost.com/software/cardiu">Devpost</a> to learn more about the project including project description, demo link, and youtube demo.
 
 
 
